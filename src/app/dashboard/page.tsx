@@ -4,7 +4,10 @@ import Aside from "./Aside/page";
 const page = () => {
   return (
     <>
-      <Aside />
+      <div className="flex">
+        <Aside />
+        this is the rest content
+      </div>
     </>
   );
 };
